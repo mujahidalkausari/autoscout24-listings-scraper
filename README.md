@@ -86,7 +86,7 @@ for (const car of items) console.log(car.title, car.price.total.amount, car.mile
 |---|---|---|
 | `startUrls` | — | AutoScout24 search pages (URLs containing `/lst/`), car detail pages, or a mix, from any country site. |
 | `maxResults` | `60` | Maximum cars to return across all start URLs. `0` means no limit. |
-| `scrapeDetails` | `true` | Open each car's page for full specs, equipment, every photo, the price rating and dealer contacts. Turn off to keep only what the search results show. |
+| `scrapeDetails` | `true` | Open each car's page for full specs, equipment, every photo, the price rating and dealer contacts. Turn off to keep only what the search results show; direct car URLs are then skipped. |
 | `forceEnglish` | `false` | Read each car from autoscout24.com, so values come back in English whatever site the listing is on. |
 | `proxyConfiguration` | none | Runs work without a proxy. Turn on Apify Proxy if AutoScout24 starts blocking. |
 
